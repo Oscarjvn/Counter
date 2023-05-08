@@ -29,7 +29,7 @@ function resetValue(){
 increase.addEventListener("click", increaseValue)
 reset.addEventListener("click", resetValue)
 deacrese.addEventListener("click", deacreseValue)
-touch.addEventListener("click", ()=>{alert("Angie love you babe")})
+touch.addEventListener("click", ()=>{number.innerText = "Angie love you babe"})
 
 
 console.log(value)
