@@ -2,6 +2,7 @@ const number = document.getElementById("number")
 const increase = document.getElementById("increase")
 const reset = document.getElementById("reset")
 const deacrese = document.getElementById("decrease")
+const touch = document.getElementById("touch")
 let value = 0
 number.innerText = 0
 
@@ -28,6 +29,7 @@ function resetValue(){
 increase.addEventListener("click", increaseValue)
 reset.addEventListener("click", resetValue)
 deacrese.addEventListener("click", deacreseValue)
+touch.addEventListener("click", ()=>{alert("Angie love you babe")})
 
 
 console.log(value)
